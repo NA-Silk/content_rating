@@ -30,7 +30,7 @@ class ContentRating extends Component {
                             <button className='like-button' onClick={this.state.handleLike}>
                             Like ({this.state.likes})
                             </button>
-                            <button className='dislike-button' onclick={this.state.handleDislike}>
+                            <button className='dislike-button' onClick={this.state.handleDislike}>
                             Dislike ({this.state.dislikes})
                             </button>
                         </div>
